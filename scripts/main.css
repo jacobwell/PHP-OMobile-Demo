@@ -1,0 +1,226 @@
+/*main styles*/
+
+.aForm {
+  color: #000;
+  background:#FFFFFF;
+  padding: 10px;
+  margin: 3px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+  display:none;
+  -webkit-border-radius: 7px;
+  border: solid black 1px;
+  text-align: left;
+}
+#major {padding: 10px 5px 10px 5px;}
+a:link {color:yellow}
+a:visited {color: yellow}
+.active {
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(72,83,230,.7)), color-stop(1, rgba(36,41,110,1)));
+	background: -moz-linear-gradient(top, rgba(72,83,230,.7), rgba(36,41,110,1));
+	color:white;
+	background-color: blue;
+}
+.notActive{background-color:white}
+#tabmenu td {width:25%}
+.menuDownMode #opow {
+	-webkit-text-stroke: .6px #000000;
+	font-size: 23px;
+	position:relative;
+	top:-6px
+
+}
+#page5 {
+background-color: red;
+position: relative;
+top: -66px;
+margin: 0;
+}
+#opow {
+	text-align: center;
+	font-weight:bold;
+}
+.menuUpMode #opow {
+	-webkit-text-stroke: .6px #000000;
+	font-size: 23px;
+	position:relative;
+	top:-4px;
+}
+#thePlug {position:relative;top:6px;}
+.menuDownMode #thePlug {height: 27px;}
+.menuUpMode #thePlug {height: 27px; position:relative;top:5px;}
+.menuUpMode #onPage {position:relative;top:-2px;}
+#clickTo {position: relative; top:-9px; font-size:13px; left:-7px; color: white;}
+#tabmenu {
+	text-align: center;
+	width:100%;
+	margin:0px;
+	padding:0px;
+	border:0px;
+}
+#title {
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(72,83,230,.9)), color-stop(1, rgba(36,41,110,1)));
+	background: -moz-linear-gradient(top, rgba(72,83,230,.9), rgba(36,41,110,1));
+	border-top:1px solid black;
+	border-bottom:1px solid black;
+	color: #ffffff;
+	line-height: 0px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	padding-left:10px;
+}
+.menuUpMode #opow {-webkit-text-stroke: .6px #000000;}
+body {
+	margin: 0px;
+	background: blue;
+}
+img {border-style: none}
+.activeTab {display:all;}
+.notActiveTab {display:none;}
+
+/*login layout*/
+ #content {background-color: #dcdcdc; margin-left: -110px; position: absolute;top: -40px;left: 50%;width: 190px;height: 100px;visibility: visible; border-top: gray solid 1px; border-bottom: gray solid 1px; padding: 15px; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; } 
+.gap{height:8px} 
+#horizon {background-color: none;  position: absolute; top: 50%; left: 0px; width: 100%; height: 1px; overflow: visible; visibility: visible;  color:black; font-family:Helvetica,Arial;} 
+#logindiv input { -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; font-size:15px;}
+
+
+/*account table info layout*/
+#data tr {
+	margin-right: 10px;
+}
+#info tr {
+	height: 45px;
+	display: block;
+	background: #EEE url(/images/bgGradient-eee-ccc.png) bottom left repeat-x;
+	margin-bottom:5px;
+	-moz-border-radius: .5em;
+	-webkit-border-radius: .5em;
+	border-radius: .5em;
+	background-repeat-x: repeat;
+	background-repeat-y: no-repeat;
+	background-attachment: initial;
+	background-origin: initial;
+	background-clip: initial;
+	margin-right: 10px;
+
+}
+#info tr>:first-child {
+	text-align:center;
+	border-right: 1px dotted black;
+	padding:2px 10px 0 10px;
+	line-height:17px;
+	width:52px;
+}
+.R1 {
+	background: -webkit-gradient(linear, left top, left bottom, from(#edeeed), to(#dcdddc));
+	background: -moz-linear-gradient(top,  #edeeed,  #dcdddc);
+}
+.billC tr+tr {
+	background: -webkit-gradient(linear, left top, left bottom, from(#dcdddc), to(#cbcccb)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #dcdddc,  #cbcccb);
+}
+.billC tr+tr td+td+td {border-bottom-right-radius: .5em;}
+
+.R1_2 {
+	background: -webkit-gradient(linear, left top, left bottom, from(#edeeed), to(#cbcccb)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #edeeed,  #cbcccb);
+}
+.LBC {border-bottom-left-radius: .5em;}
+.LTC {border-top-left-radius: .5em;}
+.RTC {border-top-right-radius: .5em;}
+.RBC {border-bottom-right-radius: .5em;}
+.blackcat {
+	text-align:center;
+	border-right: 1px solid #b9bcbc;
+	width:25px;
+	padding: 5px;
+}
+
+
+.billNeg {background: #EEE url(/images/redbg3.png) bottom left repeat-x;color:white;}
+.billPos {background: #EEE url(/images/greenbg2.png) bottom left repeat-x;}
+.PlanChange {background: -webkit-gradient(linear, left top, left bottom, from(#edeeed), to(#cbcccb)); background: -moz-linear-gradient(top,  #edeeed,  #cbcccb);}
+.billNeg div {background-position:0px -525px;}
+.billPos div {background-position:0px -635px;}
+.PlanChange div {background-position:0px -3499px;}
+.qCell {
+	text-align:center;
+	line-height:17px;
+	width:52px;
+	height: 54px;
+	background-repeat-x: repeat;
+	background-repeat-y: no-repeat;
+	background-attachment: initial;
+	background-position-x: 0%;
+	background-position-y: 100%;
+	background-origin: initial;
+	background-clip: initial;
+	padding:3px;
+	-moz-border-radius: .5em;
+	-webkit-border-radius: .5em;
+	border-radius: .5em;
+}
+.changedPlanTop {
+	position: relative;
+	top: -17px;
+	text-align: center;
+}
+.changedPlan {
+	font-size: 18px;
+	background-color:yellow;
+	margin-left: 17%;
+	margin-right: 17%;
+	position: relative;
+	top: -39px;
+	padding-left:10px;
+	text-align: left;
+	-moz-border-radius: .5em;
+	-webkit-border-radius: .5em;
+}
+
+.billC tr td {
+	text-align:center;
+	border-right: 1px solid #b9bcbc;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+.billC div, #qLook div {
+	background-image:url('/images/sprites.png');
+	height:35px;
+	width:35px;
+	margin-left:auto;
+	margin-right:auto
+}
+#info {padding-left: 7px;}
+#info div {
+	background-image:url('/images/sprites20.png');
+	height:20px;
+	width:20px;
+	margin-left:auto;
+	margin-right:auto
+}
+#info tr td+td {padding-left:5px;text-align:center;}
+
+
+
+/*sprites20 icons*/
+#name {background-position:0px -515px;}	
+#phone {background-position:0px -1697px;}
+#address {background-position: 0px -1546px;}
+#SINGLE_FAMILY {background-position: 0px -1120px;}
+#MULTI_FAMILY {background-position: 0px -1150px;}
+#rooms {background-position: 0px -545px;}
+#size {background-position: 0px -728px;}
+#ELEC {background-position: 0px -1090px;}
+#OTHER {background-position: 0px -606px;}
+#GAS {background-position: 0px -787px;}
+#CENTRAL {background-position: 0px -818px;}
+#WINDOW {background-position: 0px -818px;}
+#POOL {background-position: 0px -1000px;}
+#SPA {background-position: 0px -1000px;}
+#SAUNA {background-position: 0px -1000px;}
+
+/*sprites icons*/
+#cal {background-position:0px -2441px;}
+#use {background-position:0px -2598px;}
+#sums {background-position:0px -3072px;}
